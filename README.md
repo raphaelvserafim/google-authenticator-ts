@@ -6,12 +6,18 @@ Este projeto implementa um autenticador compatível com o Google Authenticator, 
 
 Estas instruções vão te mostrar como obter uma cópia do projeto em funcionamento na sua máquina local para fins de desenvolvimento e teste.
 
-
 ```sh
-npm install
+npm i @raphaelvserafim/google-authenticator
 ```
 
 # Uso
+```ts
+import { GoogleAuthenticator } from "@raphaelvserafim/google-authenticator";
+```
+### ou
+```js
+const { GoogleAuthenticator } = require("@raphaelvserafim/google-authenticator");
+```
 
 ## Gerando um Segredo para Autenticação:
 ```js
