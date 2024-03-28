@@ -4,6 +4,18 @@
   "description": "Uma implementação simples do algoritmo Google Authenticator em TypeScript",
   "main": "dist/GoogleAuthenticator.js",
   "types": "dist/GoogleAuthenticator.d.ts",
+  "keywords": [
+    "Google Authenticator",
+    "TypeScript",
+    "Algoritmo de autenticação",
+    "Autenticação de dois fatores",
+    "Implementação em TypeScript",
+    "Biblioteca de autenticação",
+    "Segurança da autenticação",
+    "TypeScript library",
+    "2FA",
+    "Código de autenticação temporária"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.compile.json",
     "test": "echo \"Error: no test specified\" && exit 1",
